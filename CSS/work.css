@@ -1,0 +1,50 @@
+h2 {
+    position: relative;
+    font-family: 'Rosario';
+    text-align: center;
+    color: #FFFFFF;
+    font-weight: 100;
+    z-index: 15;
+    margin-top: 150px;
+    font-size: 3vw;
+}
+
+  .cardContainer {
+    margin-top: 20px;
+  }
+  .card {
+    margin: 0 auto;
+  }
+ 
+  .content {
+    padding: 20px;
+    padding-bottom: 100px;
+  }
+    
+  .cardContainer {
+    text-align: center;
+  } 
+
+  .card-img-bottom {
+    height: 300px;
+    object-fit:contain;
+  }
+
+.card-title {
+    z-index: 15;
+    position: relative;
+    font-family: 'SF Compact Text';
+    color: #FFFFFF;
+    font-size: 2vw;
+    padding-bottom: 20px;
+}
+
+@font-face {
+    font-family: 'Rosario';
+    src: url('/Fonts/static/Rosario-Regular.ttf') format('truetype');
+} 
+
+@font-face {
+    font-family: 'SF Compact Text';
+    src: url('../Fonts/SF_Compact_Text/SF-Compact-Text-Regular.otf')
+}
